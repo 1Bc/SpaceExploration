@@ -1,0 +1,41 @@
+.article-list{
+  width: 60%;
+  height: auto;
+
+
+  margin-left: 20%;
+
+  list-style: none;
+}
+
+
+.article-tab{
+  width: calc(100% - 100px);
+  min-height: 100px;
+
+  display: flex;
+
+}
+
+.article-text-container{
+  width: 100%;
+  height: 100%;
+}
+
+.article-preview{
+  width: 100%;
+  height: 80%;
+
+
+}
+
+.article-read-link-container{
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+
+  text-decoration: underline;
+
+}

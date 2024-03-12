@@ -1,7 +1,18 @@
+
+
 body, html {
   height: 100%;
   margin: 0;
 }
+%start-bg-image{
+  height: 50%;
+  margin-top: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .navbar {
   display: flex;
@@ -23,10 +34,29 @@ body, html {
 }
 
 .bg {
+  @extend %start-bg-image;
   background-image: url("../img/man_on_the_moon.jpg");
-  height: 50%;
-  margin-top: 80px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
+.title{
+
+}
+
+
+.article-section{
+    width: 50%;
+    min-height: 20%;
+
+
+    overflow: scroll;
+
+    margin-left: 25%;
+
+
+}
+
+
+.image-section{
+  justify-self: center;
+}
+
