@@ -2,7 +2,7 @@ class MyNavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div class="navbar">
-                <a href="/src/" class="logo-link">
+                <a href="/SpaceExploration/src/" class="logo-link">
                     <div class="logo"></div>
                 </a>
             </div>
