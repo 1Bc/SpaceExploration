@@ -1,0 +1,13 @@
+.bg {
+  height: 50%;
+  margin-top: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background-image: url("../../img/man_on_the_moon.jpg");
+}
+
+/*# sourceMappingURL=article2.css.map */

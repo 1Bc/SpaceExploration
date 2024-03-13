@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  background: #2a42a3;
+}
+
+.logo {
+  width: 180px;
+  height: 50px;
+  background: url("../../img/full_moon.png") no-repeat center center;
+  background-size: contain;
+}
+
+.article-section {
+  width: 50%;
+  min-height: 20%;
+  overflow: scroll;
+  margin-left: 25%;
+}
+
+.image-section {
+  justify-self: center;
+}
+
+/*# sourceMappingURL=navbar.css.map */

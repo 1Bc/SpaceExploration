@@ -1,0 +1,13 @@
+.bg {
+  height: 50%;
+  margin-top: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background-image: url("https://aerospace.honeywell.com/content/dam/aerobt/en/images/learn/about-us/blogs/horizontal/AeroBT-s_285636983_moon-landing_2880x1440.jpg");
+}
+
+/*# sourceMappingURL=article1.css.map */
