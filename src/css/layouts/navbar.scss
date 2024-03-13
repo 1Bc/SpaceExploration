@@ -4,13 +4,7 @@ body, html {
   height: 100%;
   margin: 0;
 }
-%start-bg-image{
-  height: 50%;
-  margin-top: 80px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 
 
@@ -26,18 +20,15 @@ body, html {
   background: #2a42a3;
 }
 
+
 .logo {
   width: 180px;
   height: 50px;
-  background: url('../img/full_moon.png') no-repeat center center;
+  background: url('../../img/full_moon.png') no-repeat center center;
   background-size: contain;
 }
 
-.bg {
-  @extend %start-bg-image;
-  background-image: url("../img/man_on_the_moon.jpg");
 
-}
 .title{
 
 }
