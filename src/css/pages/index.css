@@ -1,8 +1,13 @@
-@import "../utilites/extends";
 .bg {
-  @extend %start-bg-image;
-  background-image: url("../../img/man_on_the_moon.jpg");
+  height: 50%;
+  margin-top: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.bg {
+  background-image: url("../../img/man_on_the_moon.jpg");
 }
 
 .field__body {
@@ -13,7 +18,7 @@
 }
 
 .article-section {
-  max-width: 800px; // Adjust based on your layout preference
+  max-width: 800px;
   text-align: justify;
 }
 
@@ -30,7 +35,7 @@
 .article-tab {
   margin: 15px;
   background-color: #fff;
-  box-shadow: 0 3px 10px 1px rgba(204, 204, 204, 1);
+  box-shadow: 0 3px 10px 1px rgb(204, 204, 204);
   width: calc(20% - 30px);
   display: flex;
   flex-direction: column;
@@ -43,12 +48,11 @@ figure {
   width: 100%;
   overflow: hidden;
   height: 250px;
-
-  img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #e1e1df;
-  }
+}
+figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e1e1df;
 }
 
 .article-text-container {
@@ -80,15 +84,15 @@ a:hover {
   text-transform: uppercase;
 }
 
-// Responsive adjustments
 @media (max-width: 992px) {
   .article-tab {
-    width: calc(50% - 30px); // For 2 items per row
+    width: calc(50% - 30px);
+  }
+}
+@media (max-width: 768px) {
+  .article-tab {
+    width: calc(100% - 30px);
   }
 }
 
-@media (max-width: 768px) {
-  .article-tab {
-    width: calc(100% - 30px); // For 1 item per row
-  }
-}
+/*# sourceMappingURL=index.css.map */
