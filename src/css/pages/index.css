@@ -63,18 +63,16 @@ figure img {
 .article-preview, .article-read-link-container {
   width: 100%;
 }
-
-.article-read-link-container {
-  margin-top: 15px;
-}
-
-a {
+.article-preview a, .article-read-link-container a {
   color: #111;
   text-decoration: none;
 }
-
-a:hover {
+.article-preview a:hover, .article-read-link-container a:hover {
   text-decoration: underline;
+}
+
+.article-read-link-container {
+  margin-top: 15px;
 }
 
 .hp-posts-cat {

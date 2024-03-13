@@ -59,20 +59,21 @@ figure {
 
 .article-preview, .article-read-link-container {
   width: 100%;
+  a {
+    color: #111;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .article-read-link-container {
   margin-top: 15px;
 }
 
-a {
-  color: #111;
-  text-decoration: none;
-}
 
-a:hover {
-  text-decoration: underline;
-}
 
 .hp-posts-cat {
   font-weight: 600;
