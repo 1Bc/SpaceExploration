@@ -1,18 +1,99 @@
-/* Error: The target selector was not found.
- * Use "@extend %application-font !optional" to avoid this error.
- *    ,
- * 55 |   @extend %application-font;
- *    |   ^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   index.scss 55:3  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: The target selector was not found.\aUse "@extend %application-font !optional" to avoid this error.\a    \2577 \a 55 \2502    @extend %application-font;\d\a    \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   index.scss 55:3  root stylesheet';
+.bg {
+  height: 50%;
+  margin-top: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.bg {
+  background-image: url("../../img/man_on_the_moon.jpg");
+}
+
+.field__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.article-section {
+  max-width: 800px;
+  text-align: justify;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.article-tab {
+  margin: 15px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 1px rgb(204, 204, 204);
+  width: calc(20% - 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+}
+figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e1e1df;
+}
+
+.article-text-container {
+  font-family: Arial, sans-serif;
+  padding: 15px;
+}
+
+.article-preview, .article-read-link-container {
+  width: 100%;
+}
+
+.article-read-link-container {
+  margin-top: 15px;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hp-posts-cat {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .article-tab {
+    width: calc(50% - 30px);
+  }
+}
+@media (max-width: 768px) {
+  .article-tab {
+    width: calc(100% - 30px);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

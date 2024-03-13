@@ -1,4 +1,5 @@
 @import "../utilites/extends";
+@import "../utilites/variables";
 .bg {
   @extend %start-bg-image;
   background-image: url("../../img/man_on_the_moon.jpg");
@@ -52,7 +53,7 @@ figure {
 }
 
 .article-text-container {
-  @extend %application-font;
+  font-family: $application-font;
   padding: 15px;
 }
 
