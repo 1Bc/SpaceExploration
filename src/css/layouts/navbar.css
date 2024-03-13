@@ -52,12 +52,13 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
+  font-family: Arial, sans-serif;
 }
 
 .article-section {
+  font-family: Arial, sans-serif;
   width: 50%;
   min-height: 20%;
-  overflow: scroll;
   margin-left: 25%;
 }
 
