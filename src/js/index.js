@@ -12,3 +12,15 @@ class MyFooter extends HTMLElement {
 }
 
 customElements.define('my-footer', MyFooter);
+
+class MyNavBar extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div class="navbar">
+              <div class="logo"></div>
+            </div>
+        `
+    }
+}
+
+customElements.define('my-navbar', MyNavBar);
