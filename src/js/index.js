@@ -1,3 +1,17 @@
+class MyNavBar extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div class="navbar">
+                <a href="/src/" class="logo-link">
+                    <div class="logo"></div>
+                </a>
+            </div>
+        `
+    }
+}
+
+customElements.define('my-navbar', MyNavBar);
+
 class MyFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -12,15 +26,3 @@ class MyFooter extends HTMLElement {
 }
 
 customElements.define('my-footer', MyFooter);
-
-class MyNavBar extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-            <div class="navbar">
-              <div class="logo"></div>
-            </div>
-        `
-    }
-}
-
-customElements.define('my-navbar', MyNavBar);
