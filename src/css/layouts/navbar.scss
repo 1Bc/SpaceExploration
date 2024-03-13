@@ -1,18 +1,22 @@
+@import "../utilites/extends";
 body, html {
   height: 100%;
   margin: 0;
 }
 
 .navbar {
+  @extend %start-bg-image;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   height: 80px;
+  margin: 0;
   width: 100%;
   overflow: hidden;
   top: 0;
-  background: #2a42a3;
+  //background: #2a42a3;
+  background: url("https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg");
 }
 
 .logo {
