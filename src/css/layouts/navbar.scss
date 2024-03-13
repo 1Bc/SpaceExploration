@@ -22,22 +22,29 @@ body, html {
   background-size: contain;
 }
 
-.title{
+.bg {
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
 
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .article-section{
     width: 50%;
     min-height: 20%;
-
-
     overflow: scroll;
-
     margin-left: 25%;
-
-
 }
-
 
 .image-section{
   justify-self: center;
