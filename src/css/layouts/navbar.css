@@ -27,7 +27,7 @@ body {
   width: 100%;
   overflow: hidden;
   top: 0;
-  background: url("https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg");
+  background: url("../../img/background.jpg");
 }
 
 .logo {
