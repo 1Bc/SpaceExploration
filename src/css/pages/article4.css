@@ -10,4 +10,13 @@
   background-image: url("https://articles-images.sftcdn.net/wp-content/uploads/sites/3/2018/10/rocket-1024x576.jpg");
 }
 
+.article-section {
+  width: 50%;
+  max-width: 800px;
+  min-height: 20%;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto 2em;
+}
+
 /*# sourceMappingURL=article4.css.map */

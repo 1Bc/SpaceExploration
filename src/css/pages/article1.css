@@ -10,4 +10,13 @@
   background-image: url("https://aerospace.honeywell.com/content/dam/aerobt/en/images/learn/about-us/blogs/horizontal/AeroBT-s_285636983_moon-landing_2880x1440.jpg");
 }
 
+.article-section {
+  width: 50%;
+  max-width: 800px;
+  min-height: 20%;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto 2em;
+}
+
 /*# sourceMappingURL=article1.css.map */

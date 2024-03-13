@@ -1,7 +1,17 @@
+@import "../utilites/variables";
+
 %start-bg-image {
   height: 50%;
   margin-top: 80px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@mixin article-style {
+  width: 50%;
+  max-width: 800px;
+  min-height: 20%;
+  text-align: justify;
+  font-family: $application-font;
 }

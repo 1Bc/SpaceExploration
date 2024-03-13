@@ -10,4 +10,13 @@
   background-image: url("https://cdn.images.express.co.uk/img/dynamic/78/1200x712/5106339.jpg");
 }
 
+.article-section {
+  width: 50%;
+  max-width: 800px;
+  min-height: 20%;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto 2em;
+}
+
 /*# sourceMappingURL=article2.css.map */

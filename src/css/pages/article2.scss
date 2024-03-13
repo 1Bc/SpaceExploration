@@ -1,8 +1,13 @@
 @import "../utilites/extends";
-
+@import "../utilites/variables";
 
 .bg {
   @extend %start-bg-image;
   background-image: url("https://cdn.images.express.co.uk/img/dynamic/78/1200x712/5106339.jpg");
 
+}
+
+.article-section {
+  @include article-style;
+  margin: 0 auto 2em;
 }

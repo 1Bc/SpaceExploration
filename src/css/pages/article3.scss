@@ -1,8 +1,13 @@
 @import "../utilites/extends";
-
+@import "../utilites/variables";
 
 .bg {
   @extend %start-bg-image;
   background-image: url("https://images-assets.nasa.gov/image/iss056e201248/iss056e201248~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint");
 
+}
+
+.article-section {
+  @include article-style;
+  margin: 0 auto 2em;
 }
