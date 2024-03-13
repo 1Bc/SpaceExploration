@@ -14,8 +14,12 @@
 }
 
 .article-section {
+  width: 50%;
   max-width: 800px;
+  min-height: 20%;
   text-align: justify;
+  margin-bottom: 2em;
+  font-family: $application-font;
 }
 
 .article-list {

@@ -55,13 +55,6 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.article-section {
-  font-family: "Oswald", sans-serif;
-  width: 50%;
-  min-height: 20%;
-  margin-left: 25%;
-}
-
 .image-section {
   justify-self: center;
 }
