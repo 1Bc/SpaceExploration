@@ -38,6 +38,7 @@ body {
 }
 
 .title {
+  @extend %application-font;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,6 +51,7 @@ body {
 }
 
 .article-section{
+  @extend %application-font;
     width: 50%;
     min-height: 20%;
     overflow: scroll;

@@ -52,6 +52,7 @@ figure {
 }
 
 .article-text-container {
+  @extend %application-font;
   padding: 15px;
 }
 

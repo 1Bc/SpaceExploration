@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+.article-text-container {
+  font-family: Arial, sans-serif;
+}
+
 .bg {
   background-image: url("../../img/man_on_the_moon.jpg");
 }
